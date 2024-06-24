@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-24T17:36:08 IST" name="Default suite" finished-at="2024-06-24T17:36:08 IST" duration-ms="63">
+    <groups>
+    </groups>
+    <test started-at="2024-06-24T17:36:08 IST" name="Default test" finished-at="2024-06-24T17:36:08 IST" duration-ms="63">
+      <class name="listeners.Listeners_testNGclass">
+        <test-method signature="Addition()[pri:0, instance:listeners.Listeners_testNGclass@16d04d3d]" started-at="2024-06-24T17:36:08 IST" name="Addition" finished-at="2024-06-24T17:36:08 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addition -->
+        <test-method signature="Refresh()[pri:0, instance:listeners.Listeners_testNGclass@16d04d3d]" started-at="2024-06-24T17:36:08 IST" name="Refresh" finished-at="2024-06-24T17:36:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh -->
+        <test-method signature="fashion()[pri:0, instance:listeners.Listeners_testNGclass@16d04d3d]" started-at="2024-06-24T17:36:08 IST" name="fashion" finished-at="2024-06-24T17:36:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fashion -->
+        <test-method signature="test()[pri:0, instance:listeners.Listeners_testNGclass@16d04d3d]" started-at="2024-06-24T17:36:08 IST" name="test" finished-at="2024-06-24T17:36:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- listeners.Listeners_testNGclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
