@@ -9,6 +9,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.time.Duration;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -20,6 +21,7 @@ import org.openqa.selenium.io.FileHandler;
 public class Reserved_code {
 	
 	public static WebDriver driver;
+
     public static String projectpath = System.getProperty("user dir");
 	static String host = "Localhost";
 	static String portnumber = "3306";
@@ -44,6 +46,9 @@ public class Reserved_code {
 		driver.get(url);
 		System.out.println(driver.getTitle());
 		}
+	public static void Javascript() {
+		Javascript(); 
+	}
 	
 	public static void takesscreenshot_1 (String screenshot_name) throws Throwable  {
 		TakesScreenshot ts = (TakesScreenshot) driver;
@@ -72,10 +77,7 @@ public class Reserved_code {
 }
 
 			
-//Connection connect = DriverManager.getConnection("jdbc:mysql://"+host+":"+portnumber+ database,"root", "Himanshu@123");
-//Statement cs = connect.createStatement();
-// ResultSet resut = cs.executeQuery(query);
-			
+
 			
 			
 			
