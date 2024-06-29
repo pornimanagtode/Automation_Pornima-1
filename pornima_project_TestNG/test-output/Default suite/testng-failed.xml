@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="end_to_end_.Flipkart">
+      <class name="assertion.Hard_assert">
         <methods>
-          <include name="fashion"/>
+          <include name="Software"/>
+          <include name="Browser_and_hiturl"/>
         </methods>
-      </class> <!-- end_to_end_.Flipkart -->
+      </class> <!-- assertion.Hard_assert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

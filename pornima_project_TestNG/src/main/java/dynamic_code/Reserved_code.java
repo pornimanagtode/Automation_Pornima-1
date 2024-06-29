@@ -56,13 +56,13 @@ public class Reserved_code {
 	public static void takesscreenshot_1 (String screenshot_name) throws Throwable  {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		File Target = new File ("./Listeners_flipkart/"+screenshot_name +".png");
+		File Target = new File ("./Netmed_listeners/"+screenshot_name +".png");
 		FileHandler.copy(source, Target);
 	}
 	public static void takesscreenshot_2(String screenshot) throws Throwable {
 		TakesScreenshot ts_1= (TakesScreenshot) driver;
 	File source_1 = ts_1.getScreenshotAs(OutputType.FILE);
-	File Target_1 = new File(projectpath+"\\Listeners_flipkart\\"+ screenshot +"png");
+	File Target_1 = new File(projectpath+"\\Netmed_listeners\\"+ screenshot +"png");
 	FileHandler.copy(source_1, Target_1);
 		
 	}
@@ -77,9 +77,18 @@ public class Reserved_code {
 	result.getString(password);
 	  	  
 	}
-
 	
-}
+	public static void javascript_scroll(int value1,int value2) {
+		
+		//TO SCROLL
+		JavascriptExecutor js =  (JavascriptExecutor) driver;
+		js.executeScript("window.scrollby( 0,Y)");
+
+		
+	}
+		
+	
+} 
 
 			
 
